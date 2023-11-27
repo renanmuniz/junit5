@@ -1,7 +1,9 @@
 package com.junit.renan;
 
-import java.time.LocalDate;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
-public record User(String name, Integer age, Boolean blocked, LocalDate birthDate) {
+import java.util.Date;
 
+public record User(String name, Integer age, Boolean blocked, Date birthDate) {
 }
+
