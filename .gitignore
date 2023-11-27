@@ -61,3 +61,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Sonar ###
+.idea/sonarlint
